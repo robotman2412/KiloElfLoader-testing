@@ -1,0 +1,3 @@
+[submodule "kbelfloader"]
+	path = kbelfloader
+	url = https://github.com/robotman2412/KiloElfLoader
