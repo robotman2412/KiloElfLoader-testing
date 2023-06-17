@@ -9,8 +9,6 @@ build: Makefile barebones.c
 		-fPIC \
 		-mno-relax \
 		-o barebones.elf \
-		../libstub0/libstub0.elf \
-		../lib0/lib0.elf \
 		barebones.c
 	@riscv32-unknown-linux-gnu-gcc \
 		-nodefaultlibs -nostdlib \

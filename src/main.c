@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
 		return 1;
 	}
 	
-	if (!kbelf_dyn_perform(dyn)) {
+	if (!kbelf_dyn_load(dyn)) {
 		printf("No image :c\n");
 		return 1;
 	}

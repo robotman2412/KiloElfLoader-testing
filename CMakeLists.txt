@@ -8,7 +8,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 project(elftest)
 
 add_compile_definitions(KBELF_DEBUG)
-add_compile_options(-ggdb)
+add_compile_options(-ggdb -march=rv32ic)
 
 add_subdirectory(kbelfloader)
 
